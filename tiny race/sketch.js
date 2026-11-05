@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background(10,2);
+  background(300,40,500);
   line(finishX, 0, finishX, height);
   for (let i = 0; i < racerXs.length; i++) {
     let y = startY + yStep * i;
