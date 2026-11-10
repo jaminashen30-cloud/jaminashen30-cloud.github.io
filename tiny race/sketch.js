@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background(300,40,500);
+  background(90,450,300);
   line(finishX, 0, finishX, height);
   for (let i = 0; i < racerXs.length; i++) {
     let y = startY + yStep * i;
@@ -18,6 +18,6 @@ function draw() {
         racerXs=[30, 60, 30, 30];
     }
     circle(racerXs[i], y, 24);
-    fill("green");
+    fill("yellow");
   }
 }
